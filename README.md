@@ -62,3 +62,14 @@ Use the margin properties to add a top, bottom, left or right margin to an eleme
 
 A general technique for CSS is to create an HTML element and style each property one-by-one until the desired appearance is achieved. 
 
+
+
+# 3. Hovers, Transitions, Shadows
+
+In this part, we will use CSS to create hovers, transitions and shadows for our buttons.
+
+Buttons can change their styles when the cursor hovers over them.
+
+To create CSS for a button while hovering, use the :hover keyword in the class name (example: background-color:hover)
+
+
