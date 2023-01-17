@@ -64,7 +64,7 @@ A general technique for CSS is to create an HTML element and style each property
 
 
 
-# 3. Hovers, Transitions, Shadows
+## 3. Hovers, Transitions, Shadows
 
 In this part, we will use CSS to create hovers, transitions and shadows for our buttons.
 
