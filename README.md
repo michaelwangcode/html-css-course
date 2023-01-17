@@ -26,7 +26,7 @@ Extra spaces and newline characters are ignored in HTML files.
 
 
 
-
+## 2. CSS Basics
 
 
 
