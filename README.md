@@ -6,11 +6,11 @@ This is code for the [HTML & CSS Full Course - Beginner to Pro (2022)](https://w
 
 ## 1. HTML Basics
 
-Create a website.html file to contain the website code.
+To begin, create a website.html file that will contain the website code.
 
 Elements are parts of a web page.
 
-HTML tags are enclosed in <> </>, and are used to create elements.
+HTML tags are enclosed in ```<> </>``` brackets, and are used to create elements.
 
 ```<button>``` is the button element, ```<p>``` is the paragraph element, and ```<a>``` is the anchor element, which is used to link to other web pages.
 
@@ -32,7 +32,7 @@ In this part, we will create three buttons and use CSS to style them.
 
 CSS stands for Cascading Style Sheets, and is used to specify how HTML elements appear on screen.
 
-CSS can be added to an HTML file using the <style> tag.
+CSS can be added to an HTML file using the ```<style>``` tag.
 
 A CSS Selector refers to the name of the element we are styling (ex: button)
 
@@ -40,11 +40,25 @@ A CSS Property refers to the property of the element we are changing (ex: backgr
 
 The CSS Value is on the right of the property, and is the value we are changing the property to (ex: red)
 
-CSS styles are ended with a semi-colon.
+CSS styles are seperated with a semi-colon.
 
 Color values can be displayed using RGB (ex: rgb(200, 0, 0))
 
+### CSS Classes
 
+The class attribute for an HTML element lets us label the element (ex: class="subscribe-button")
 
+To style a class in CSS, use a period (ex: .subscribe-button)
 
+Using a period means that we are targeting a class instead of an element.
+
+Multiple elements can have the same class name.
+
+### Margin
+
+In CSS, space around an element is called the margin.
+
+Use the margin properties to add a top, bottom, left or right margin to an element (ex: margin-right: 8px)
+
+A general technique for CSS is to create an HTML element and style each property one-by-one until the desired appearance is achieved. 
 
