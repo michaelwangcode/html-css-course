@@ -2,6 +2,8 @@
 
 This is code for the [HTML & CSS Full Course - Beginner to Pro (2022)](https://www.youtube.com/watch?v=G3e-cpL7ofc) by SuperSimpleDev.
 
+&nbsp;
+
 
 
 ## 1. HTML Basics
@@ -23,6 +25,8 @@ The target attribute specifies whether to open the link in the current page or a
 Attributes are seperated by spaces in the tag.
 
 Extra spaces and newline characters are ignored in HTML files.
+
+&nbsp;
 
 
 
@@ -62,6 +66,8 @@ Use the margin properties to add a top, bottom, left or right margin to an eleme
 
 A general technique for CSS is to create an HTML element and style each property one-by-one until the desired appearance is achieved. 
 
+&nbsp;
+
 
 
 ## 3. Hovers, Transitions, Shadows
@@ -99,5 +105,9 @@ The third value represents the shadow blur.
 The last value represents the shadow color.
 
 Use an rgba() value which will set the color, as well as the opacity.
+
+&nbsp;
+
+
 
 
