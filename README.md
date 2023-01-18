@@ -2,6 +2,8 @@
 
 This is code for the [HTML & CSS Full Course - Beginner to Pro (2022)](https://www.youtube.com/watch?v=G3e-cpL7ofc) by SuperSimpleDev.
 
+View the html files in this project by opening them in Google Chrome.
+
 &nbsp;
 
 
@@ -135,5 +137,9 @@ In the Computed tab of DevTools, you can see the padding, margin and border dime
 The CSS box model is how much space an element takes up and how far away it is from other elements.
 
 The vertical-align property will align the buttons to the top.
+
+&nbsp;
+
+
 
 
