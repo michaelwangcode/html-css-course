@@ -110,4 +110,30 @@ Use an rgba() value which will set the color, as well as the opacity.
 
 
 
+## 4. Chrome DevTools & CSS Box Model
+
+### Chrome Devtools
+
+The Chrome DevTools can be opened in Google Chrome by right clicking on a web page and choosing Inspect.
+
+It displays the website's HTML and CSS properties for any element you select.
+
+Click on the pointer icon in the top left to show the HTML for any element you hover over.
+
+The DevTools can be used to find the exact hex color values of an element, as well as height, width and all other attributes.
+
+### CSS Box Model
+
+Margin is the spacing on the outside of an element. 
+
+Padding is the spacing on the inside of an element.
+
+It's better to set margins and padding instead of height and width, because you don't need to recalculate dimensions if the text changes.
+
+In the Computed tab of DevTools, you can see the padding, margin and border dimensions of an element. 
+
+The CSS box model is how much space an element takes up and how far away it is from other elements.
+
+The vertical-align property will align the buttons to the top.
+
 
