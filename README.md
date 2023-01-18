@@ -142,4 +142,27 @@ The vertical-align property will align the buttons to the top.
 
 
 
+## 5. Text Styles
+
+In this part, we use CSS to style text.
+
+In text.html, add HTML and CSS to style the title, stats, author and description of a YouTube style video. 
+
+The font-size property is used to change the text size.
+
+The font-family property is used to change the text font.
+
+HTML entities are used to display special characters.
+
+When a property is set multiple times, the selector (property) that is more specific has higher priority.
+
+This is known as CSS Specificity.
+
+A text element is an element within a line of text that modifies the text.
+
+The ```<span>``` text element is a generic text element that can be styled using CSS.
+
+Use the margin-left property to display multiple spaces between text.
+
+
 
