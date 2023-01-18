@@ -68,8 +68,36 @@ A general technique for CSS is to create an HTML element and style each property
 
 In this part, we will use CSS to create hovers, transitions and shadows for our buttons.
 
+### Hovers
+
 Buttons can change their styles when the cursor hovers over them.
 
 To create CSS for a button while hovering, use the :hover keyword in the class name (example: background-color:hover)
+
+The background-color:hover class is called a pseudo-class.
+
+The :active pseudo-class is applied when the button is being clicked on.
+
+### Transitions
+
+Transition properties are added to the class properties, not the pseudo-class.
+
+The transition property take two values, what we want to transition (opacity) and a value in seconds.
+
+To transition multiple properties at once, seperate them with a comma.
+
+### Shadows
+
+Use the box-shadow property to add a shadow to a button.
+
+The first value represents the horizontal position of the shadow.
+
+The second value represents the vertical position of the shadow.
+
+The third value represents the shadow blur.
+
+The last value represents the shadow color.
+
+Use an rgba() value which will set the color, as well as the opacity.
 
 
