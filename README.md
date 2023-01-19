@@ -182,7 +182,7 @@ To improve organization, we can move all of the CSS to a .css file.
 
 To link the CSS file to the HTML file, use the ```<link>``` tag.
 
-Use the ```rel="stylesheet"``` and ```href="filename.css``` attributes inside the link tag to link the file:
+Use the ```rel``` and ```href``` attributes inside the link tag to link the file:
 
 ```<link rel="stylesheet" href="filename.css">```
 
@@ -199,5 +199,27 @@ Go to fonts.google.com, search for Roboto, and select the Regular 400 and Bold 7
 Copy the HTML code for the fonts and add it to the ```<head>``` section of the .html file.
 
 In the corresponding .css file, we can now use the Roboto font.
+
+&nbsp;
+
+
+
+## 7. Images and Text Boxes
+
+The rest of this course will be dedicated to recreating YouTube's home page in HTML and CSS.
+
+This will be done in the youtube.html file.
+
+### Adding Images
+
+The ```<img>``` tag is used to add an image to a web page.
+
+Use the ```src``` attribute to link the image file:
+
+```<img src="imagename.jpg">```
+
+If the image is not in the same folder as the HTML file, we must specify a path:
+
+```<img src="images/imagename.jpg">```
 
 
