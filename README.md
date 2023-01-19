@@ -248,6 +248,11 @@ In HTML, there are three types of elements:
 
 3. Inline element: An element that appears within a line of text
 
+The display property can be used to switch between block and inline-block displays. 
+
+To set the display property, use the following CSS: `display: inline-block;` or `display: block;`
+
+&nbsp;
 
 
 
