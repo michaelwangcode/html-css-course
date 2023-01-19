@@ -222,4 +222,15 @@ If the image is not in the same folder as the HTML file, we must specify a path:
 
 ```<img src="images/imagename.jpg">```
 
+Images can be styled in CSS with properties such as width, height, object-fit, object-position, border-width, etc.
+
+## Adding a Text Box (Search Bar)
+
+We can use a text box as the input for a search bar.
+
+To display a text box, use the ```<input>``` element with the ```type="text"``` attribute:
+
+```<input type="text">```
+
+Use the ```placeholder``` attribute to add placeholdler text to the text box.
 
