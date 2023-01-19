@@ -240,6 +240,14 @@ Use the ```placeholder``` attribute to add placeholdler text to the text box.
 
 ## 8. CSS Display Property
 
+In HTML, there are three types of elements:
+
+1. Block element: An element that takes up an entire line
+
+2. Inline-block element: An element that only takes up as much space as it needs to, and does not take up an entire line
+
+3. Inline element: An element that appears within a line of text
+
 
 
 
