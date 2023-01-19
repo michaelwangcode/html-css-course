@@ -190,5 +190,14 @@ The CSS file must be in the same folder as the HTML file, otherwise the director
 
 ```<link rel="stylesheet" href="styles/filename.css">```
 
+#### Adding New Fonts from Google
+
+We will add the Roboto font to our text.html file.
+
+Go to fonts.google.com, search for Roboto, and select the Regular 400 and Bold 700 styles.
+
+Copy the HTML code for the fonts and add it to the ```<head>``` section of the .html file.
+
+In the corresponding .css file, we can now use the Roboto font.
 
 
