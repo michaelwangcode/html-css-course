@@ -164,5 +164,31 @@ The ```<span>``` text element is a generic text element that can be styled using
 
 Use the margin-left property to display multiple spaces between text.
 
+&nbsp;
+
+
+
+## 6. The HTML Structure
+
+An HTML page is structured with ```<html>```, ```<head>``` and ```<body>``` elements.
+
+The ```<head>``` element should contain all elements that are not visible on the page, such as the ```<style>``` tag and page title.
+
+The ```<body>``` element should contain all visible elements on the page.
+
+### Moving CSS to a .css File
+
+To improve organization, we can move all of the CSS to a .css file.
+
+To link the CSS file to the HTML file, use the ```<link>``` tag.
+
+Use the ```rel="stylesheet"``` and ```href="filename.css``` attributes inside the link tag to link the file:
+
+```<link rel="stylesheet" href="filename.css">```
+
+The CSS file must be in the same folder as the HTML file, otherwise the directory of the CSS file must be specified:
+
+```<link rel="stylesheet" href="styles/filename.css">```
+
 
 
