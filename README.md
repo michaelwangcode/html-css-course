@@ -270,5 +270,32 @@ It is helpful to set the display property of a div to inline-block so it doesn't
 
 We can use the `vertical-align: top;` property to align divs at the top.
 
+&nbsp;
+
+
+
+## 10. Nested Layouts Technique
+
+This is the most important lesson of the course.
+
+There are two main types of layouts: 
+
+1. Vertical Layout: Elements are stacked on top of each other
+
+2. Horizontal Layout: Elements are placed beside each other
+
+By using a combination of vertical and horizontal layouts, we can create almost any layout we see on a website.
+
+By default, a div is a block element (it takes up the entire line).
+
+Use the `display: inline-block` property to add elements horizontally. 
+
+Use the width property to assign widths to elements in a div.
+
+&nbsp;
+
+
+
+
 
 
