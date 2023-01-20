@@ -296,6 +296,22 @@ Use the width property to assign widths to elements in a div.
 
 
 
+## 11. CSS Grid
 
+CSS Grid is used to create perfectly aligned horizontal layouts.
+
+A grid is a layout with rows and columns.
+
+It is more accurate than using the inline-block method, and does not leave unwanted gaps between elements.
+
+To create a grid using CSS, set the display property of a div to `display: grid`.
+
+To set the amount of columns and the width of each column, use the `grid-template-columns` property.
+
+When there are more elements than columns, the elements will wrap around to the first column.
+
+Use the `1fr` value to take up the remaining amount of free space on a page.
+
+The number in front of `fr` is the ratio of remaining free space that will be taken up.
 
 
