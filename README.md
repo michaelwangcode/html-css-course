@@ -14,13 +14,13 @@ To begin, create a website.html file that will contain the website code.
 
 Elements are parts of a web page.
 
-HTML tags are enclosed in ```<> </>``` brackets, and are used to create elements.
+HTML tags are enclosed in `<> </>` brackets, and are used to create elements.
 
-```<button>``` is the button element, ```<p>``` is the paragraph element, and ```<a>``` is the anchor element, which is used to link to other web pages.
+`<button>` is the button element, `<p>` is the paragraph element, and `<a>` is the anchor element, which is used to link to other web pages.
 
 HTML attributes provide additional information about an element.
 
-In a link, the ```href="https://www.youtube.com"``` attribute specifies the URL to link to.
+In a link, the `href="https://www.youtube.com"` attribute specifies the URL to link to.
 
 The target attribute specifies whether to open the link in the current page or a new tab.
 
@@ -160,7 +160,7 @@ This is known as CSS Specificity.
 
 A text element is an element within a line of text that modifies the text.
 
-The ```<span>``` text element is a generic text element that can be styled using CSS.
+The `<span>` text element is a generic text element that can be styled using CSS.
 
 Use the margin-left property to display multiple spaces between text.
 
@@ -170,25 +170,25 @@ Use the margin-left property to display multiple spaces between text.
 
 ## 6. The HTML Structure
 
-An HTML page is structured with ```<html>```, ```<head>``` and ```<body>``` elements.
+An HTML page is structured with `<html>`, `<head>` and `<body>` elements.
 
-The ```<head>``` element should contain all elements that are not visible on the page, such as the ```<style>``` tag and page title.
+The `<head>` element should contain all elements that are not visible on the page, such as the `<style>` tag and page title.
 
-The ```<body>``` element should contain all visible elements on the page.
+The `<body>` element should contain all visible elements on the page.
 
 ### Moving CSS to a .css File
 
 To improve organization, we can move all of the CSS to a .css file.
 
-To link the CSS file to the HTML file, use the ```<link>``` tag.
+To link the CSS file to the HTML file, use the `<link>` tag.
 
-Use the ```rel``` and ```href``` attributes inside the link tag to link the file:
+Use the `rel` and `href` attributes inside the link tag to link the file:
 
-```<link rel="stylesheet" href="filename.css">```
+`<link rel="stylesheet" href="filename.css">`
 
 The CSS file must be in the same folder as the HTML file, otherwise the directory of the CSS file must be specified:
 
-```<link rel="stylesheet" href="styles/filename.css">```
+`<link rel="stylesheet" href="styles/filename.css">`
 
 #### Adding New Fonts from Google
 
@@ -196,7 +196,7 @@ We will add the Roboto font to our text.html file.
 
 Go to fonts.google.com, search for Roboto, and select the Regular 400 and Bold 700 styles.
 
-Copy the HTML code for the fonts and add it to the ```<head>``` section of the .html file.
+Copy the HTML code for the fonts and add it to the `<head>` section of the .html file.
 
 In the corresponding .css file, we can now use the Roboto font.
 
@@ -212,15 +212,15 @@ This will be done in the youtube.html file.
 
 ### Adding Images
 
-The ```<img>``` tag is used to add an image to a web page.
+The `<img>` tag is used to add an image to a web page.
 
-Use the ```src``` attribute to link the image file:
+Use the `src` attribute to link the image file:
 
-```<img src="imagename.jpg">```
+`<img src="imagename.jpg">`
 
 If the image is not in the same folder as the HTML file, we must specify a path:
 
-```<img src="images/imagename.jpg">```
+`<img src="images/imagename.jpg">`
 
 Images can be styled in CSS with properties such as width, height, object-fit, object-position, border-width, etc.
 
@@ -228,11 +228,11 @@ Images can be styled in CSS with properties such as width, height, object-fit, o
 
 We can use a text box as the input for a search bar.
 
-To display a text box, use the ```<input>``` element with the ```type="text"``` attribute:
+To display a text box, use the `<input>` element with the `type="text"` attribute:
 
-```<input type="text">```
+`<input type="text">`
 
-Use the ```placeholder``` attribute to add placeholdler text to the text box.
+Use the `placeholder` attribute to add placeholdler text to the text box.
 
 &nbsp;
 
@@ -253,6 +253,22 @@ The display property can be used to switch between block and inline-block displa
 To set the display property, use the following CSS: `display: inline-block;` or `display: block;`
 
 &nbsp;
+
+
+
+## 9. The div Element
+
+The `<div>` element is the most important HTML element.
+
+It is used as a container for other HTML elements.
+
+Div stands for division, and the div element is a box that is used for holding other elements.
+
+A div can contain any other elements inside it, including other divs.
+
+It is helpful to set the display property of a div to inline-block so it doesn't take up an entire line.
+
+We can use the `vertical-align: top;` property to align divs at the top.
 
 
 
