@@ -314,4 +314,7 @@ Use the `1fr` value to take up the remaining amount of free space on a page.
 
 The number in front of `fr` is the ratio of remaining free space that will be taken up.
 
+To create spaces in the grid, use the `column-gap` and `row-gap` property.
+
+
 

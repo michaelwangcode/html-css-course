@@ -43,15 +43,9 @@
         margin-right: 15px;
       }
 
-      .channel-picture {
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
-      }
-
-      .video-info {
-        display: inline-block;
-        width: 200px;
+      .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
       }
 
       .profile-picture {
@@ -89,7 +83,7 @@
       </div>
 
       <!-- Horizontal Div -->
-      <div>
+      <div class="video-info-grid">
         <!-- Channel Picture Div -->
         <div class="channel-picture">
           <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
@@ -118,7 +112,7 @@
       </div>
 
       <!-- Horizontal Div -->
-      <div>
+      <div class="video-info-grid">
         <!-- Channel Picture Div -->
         <div class="channel-picture">
           <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
