@@ -300,6 +300,8 @@ Use the width property to assign widths to elements in a div.
 
 CSS Grid is used to create perfectly aligned horizontal layouts.
 
+We will use the CSS Grid layout to display all of the YouTube video previews.
+
 A grid is a layout with rows and columns.
 
 It is more accurate than using the inline-block method, and does not leave unwanted gaps between elements.
@@ -315,6 +317,33 @@ Use the `1fr` value to take up the remaining amount of free space on a page.
 The number in front of `fr` is the ratio of remaining free space that will be taken up.
 
 To create spaces in the grid, use the `column-gap` and `row-gap` property.
+
+&nbsp;
+
+
+
+## 12. Flexbox
+
+Flexbox is another way to create layouts in CSS.
+
+We will use flexbox to create the YouTube header at the top of the page.
+
+To create a flexbox using CSS, set the `display:` property of the div to `flex`.
+
+To make an element take up the rest of the page, use the `flex: 1` property.
+
+The number after `flex` is the ratio of remaining free space that will be taken up.
+
+The difference between grid and flexbox is that the grid layout is rigid and flexbox is flexible in terms of dimensions.
+
+It is also more useful when the number of elements in a div will change.
+
+Use the `justify-content` property to align the elements horizontally, like `start`, `end` or `center`.
+
+The `justify-content: space-between` property will space out the elements horizontally.
+
+
+Use the `align-items` property to align elements vertically, like `start`, `end` or `center`.
 
 
 
