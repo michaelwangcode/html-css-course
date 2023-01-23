@@ -379,6 +379,36 @@ Add `padding-top` to the body element so the header doesn't block elements on th
 
 Use the same technique to create a fixed sidebar on the left.
 
+&nbsp;
+
+
+
+## 15. Position Absolute and Relative
+
+Elements can be placed as fixed or absolute.
+
+Fixed elements are placed in the browser window.
+
+Absolute elements are placed on the page.
+
+When scrolling, the browser window does not move, only the page moves.
+
+Elements written after other elements in HTML will appear above them on the web page.
+
+This can be overwritten using the `z-index` property.
+
+An element with a higher z-index will appear in front of elements with a lower z-index.
+
+Putting an absolute element inside a fixed element will make the dimensions relative to the fixed element.
+
+Use the `position: relative` property to add timestamps to video thumbnails.
+
+The video thumbnails are `position: relative` and the timestamps are `position: absolute`.
+
+&nbsp;
+
+
+
 
 
 
