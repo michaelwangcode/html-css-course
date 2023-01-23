@@ -377,4 +377,8 @@ The `top`, `bottom`, `left` and `right` properties determine the position of the
 
 Add `padding-top` to the body element so the header doesn't block elements on the page.
 
-To create a sidebar, 
+Use the same technique to create a fixed sidebar on the left.
+
+
+
+
