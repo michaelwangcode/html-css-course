@@ -351,5 +351,15 @@ Use the `align-items` property to align elements vertically, like `start`, `end`
 
 ## 13. Nested Flexbox
 
+In this part, nested flexboxes are used to create the top header bar.
+
+The header is split into left, middle and right sections.
+
+Icons are added to the header and CSS classes are used to style them.
+
+The `flex-shrink: 0` property is used to prevent a flex box from shrinking past its minimum width.
+
+&nbsp;
+
 
 
