@@ -401,7 +401,7 @@ An element with a higher z-index will appear in front of elements with a lower z
 
 Putting an absolute element inside a fixed element will make the dimensions relative to the fixed element.
 
-Use the `position: relative` property to add timestamps to video thumbnails.
+Use the `position: relative` property to add timestamps to video thumbnails and notification icons.
 
 The video thumbnails are `position: relative` and the timestamps are `position: absolute`.
 
