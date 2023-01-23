@@ -363,3 +363,18 @@ The `flex-shrink: 0` property is used to prevent a flex box from shrinking past 
 
 
 
+## 14. CSS Position
+
+CSS Position helps us keep the header at the top of the page when we scroll.
+
+It also helps us overlay images such as a notification icon and video length.
+
+Use the `position: fixed` property to keep the header at the top of the page.
+
+When an element is fixed, the element is floating and does not take up space on the page anymore.
+
+The `top`, `bottom`, `left` and `right` properties determine the position of the floating element.
+
+Add `padding-top` to the body element so the header doesn't block elements on the page.
+
+To create a sidebar, 
