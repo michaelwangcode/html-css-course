@@ -409,6 +409,15 @@ The video thumbnails are `position: relative` and the timestamps are `position: 
 
 
 
+## 16. Finish the Project
+
+In this part, we will finish the final project by adding sidebar icons, resizing the videos and adding tool tips.
+
+You can target all elements within another element in CSS using a space. 
+
+The selector `.sidebar-link img` will target all img tags inside a `sidebar-link` class.
+
+
 
 
 
