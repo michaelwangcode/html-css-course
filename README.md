@@ -417,7 +417,11 @@ You can target all elements within another element in CSS using a space.
 
 The selector `.sidebar-link img` will target all img tags inside a `sidebar-link` class.
 
+To add a tool tip and make it appear when it hovers, create a div underneath the element and style it using CSS.
 
+Use the `.search-button:hover .tooltip` selector and set the opacity to 1 to make the tool tip appear when the mouse hovers over.
 
+Note: The `upload-icon-container` class was changed to `.right-header-icon-container` so it can be reused with all icons on the top right.
 
+&nbsp;
 
