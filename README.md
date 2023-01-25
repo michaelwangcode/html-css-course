@@ -437,3 +437,19 @@ This can be done by using a media query in CSS.
 
 When the screen changes size, you can set the number of columns for the video grid.
 
+In CSS, we can use shorthand properties to clean up the code.
+
+CSS has inheritance, which means certain properties get passed down to nested elements.
+
+In HTML, a semantic element clearly describes its meaning to both the browser and the developer.
+
+They give extra information about the page to search engines and screen readers.
+
+Examples include `<header>`, `<nav>`, `<main>` and `<section>`, which can be used to replace div.
+
+Lastly, we add the `cursor: pointer` property to all of the clickable links on the page.
+
+&nbsp;
+
+
+
