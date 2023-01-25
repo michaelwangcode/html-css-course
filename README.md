@@ -425,3 +425,15 @@ Note: The `upload-icon-container` class was changed to `.right-header-icon-conta
 
 &nbsp;
 
+
+
+## 17. More CSS Features
+
+In the final part, we will add Responsive Design to our project.
+
+This means the number of video previews will change based on the size of the window.
+
+This can be done by using a media query in CSS.
+
+When the screen changes size, you can set the number of columns for the video grid.
+
