@@ -1,0 +1,461 @@
+<!-- This file contains the HTML for the YouTube homepage clone -->
+<!-- The sample home page is located at: https://supersimple.dev/exercises/youtube -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+
+    <!-- Roboto Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+
+  <body>
+    <!-- Top Header Bar -->
+    <header class="header">
+
+      <!-- Left Header Section -->
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+
+      <!-- Middle Header Section -->
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <!-- Right Header Section -->
+      <div class="right-section">
+        <div class="right-header-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="right-header-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">Youtube apps</div>
+        </div>
+        <div class ="right-header-icon-container">
+          <div class="notifications-icon-container">
+            <img class="notifications-icon" src="icons/notifications.svg">
+            <div class="notifications-count">3</div>
+          </div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+      </div>
+    </header>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Video Grid - Contains All Videos -->
+      <section class="video-grid">
+
+        <!-- Video Preview 1 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class = "thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/nagai.jpg">
+            <div class="video-time">11:17</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/nagai.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                タワーレコード40周年企画 Illustration by HIROSHI NAGAI
+              </p>
+              <p class="video-author">
+                Tower Records Japan Inc.
+              </p>
+              <p class="video-stats">
+                9.2K views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Preview 2 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class = "thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/acdc.jpg">
+            <div class="video-time">14:20</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/acdc.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                AC/DC - Thunderstruck (Official Video)
+              </p>
+              <p class="video-author">
+                AC/DC
+              </p>
+              <p class="video-stats">
+                1.2B views &#183; 10 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Preview 3 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class = "thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/balmain.jpg">
+            <div class="video-time">9:13</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/balmain.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                Balmain Fall/Winter 2016 Menswear Show
+              </p>
+              <p class="video-author">
+                Balmain
+              </p>
+              <p class="video-stats">
+                502K views &#183; 6 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Preview 4 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/bts.jpg">
+            <div class="video-time">22:09</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/bts.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)' Official MV
+              </p>
+              <p class="video-author">
+                HYBE LABELS
+              </p>
+              <p class="video-stats">
+                1.6B views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Preview 5 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class = "thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/chvrches.jpg">
+            <div class="video-time">11:17</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/chvrches.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                CHVRCHES - Gun
+              </p>
+              <p class="video-author">
+                CHVRCHES
+              </p>
+              <p class="video-stats">
+                13M views &#183; 9 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Video Preview 6 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/topgear.jpg">
+            <div class="video-time">19:59</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/topgear.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                FULL FILM: McLaren Speedtail vs F35 Fighter Jet | Top Gear
+              </p>
+              <p class="video-author">
+                Top Gear
+              </p>
+              <p class="video-stats">
+                28M views &#183; 2 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Preview 7 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class = "thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/dior.jpg">
+            <div class="video-time">14:20</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/dior.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                Dior Autumn-Winter 2020-2021 Haute Couture
+              </p>
+              <p class="video-author">
+                Christian Dior
+              </p>
+              <p class="video-stats">
+                1.9M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Preview 8 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/f40.jpg">
+            <div class="video-time">8:22</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/f40.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                Ferrari F40 Snow Drifting In Japan
+              </p>
+              <p class="video-author">
+                Red Bull
+              </p>
+              <p class="video-stats">
+                4.5M views &#183; 6 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Preview 9 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class = "thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/florence.jpg">
+            <div class="video-time">9:13</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/florence.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                Florence + The Machine - Shake It Out
+              </p>
+              <p class="video-author">
+                florencemachine
+              </p>
+              <p class="video-stats">
+                116M views &#183; 11 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Preview 10 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/goose.jpg">
+            <div class="video-time">22:09</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/goose.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                Goose - 10/31/21 Worcester, MA (Full Show)
+              </p>
+              <p class="video-author">
+                Goose
+              </p>
+              <p class="video-stats">
+                137K views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Preview 11 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/airplant.jpg">
+            <div class="video-time">8:22</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/airplant.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                How Air Plants Grow Without Soil | The New Yorker
+              </p>
+              <p class="video-author">
+                The New Yorker
+              </p>
+              <p class="video-stats">
+                176K views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Preview 12 -->
+        <div class="video-preview">
+
+          <!-- Video Thumbnail -->
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails-updated/crockett.jpg">
+            <div class="video-time">19:59</div>
+          </div>
+
+          <!-- Horizontal Div -->
+          <div class="video-info-grid">
+            <!-- Channel Picture Div -->
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures-updated/crockett.jpg">
+            </div>
+            <!-- Video Info Div -->
+            <div class="video-info">
+              <p class="video-title">
+                Charley Crockett - "I Feel For You" (Official Video)
+              </p>
+              <p class="video-author">
+                Charley Crockett
+              </p>
+              <p class="video-stats">
+                515K views &#183; 11 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+  </body>
+</html>

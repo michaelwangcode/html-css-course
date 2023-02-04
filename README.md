@@ -2,6 +2,8 @@
 
 This is code for the [HTML & CSS Full Course - Beginner to Pro (2022)](https://www.youtube.com/watch?v=G3e-cpL7ofc) by SuperSimpleDev.
 
+The course teaches HTML and CSS by showing us how to recreate the YouTube home page.
+
 View the html files in this project by opening them in Google Chrome.
 
 &nbsp;
