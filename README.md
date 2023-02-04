@@ -8,6 +8,12 @@ View the html files in this project by opening them in Google Chrome.
 
 &nbsp;
 
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/michaelwangcode/html-css-course/master/screenshot.png)
+
+&nbsp;
+
 
 
 ## 1. HTML Basics
