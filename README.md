@@ -4,7 +4,10 @@ This is code for the [HTML & CSS Full Course - Beginner to Pro (2022)](https://w
 
 The course teaches HTML and CSS by showing us how to recreate the YouTube home page.
 
-View the html files in this project by opening them in Google Chrome.
+If you're in VSCode, you can view the project by right clicking `youtube-updated.html` and selecting `Open With Live Server`.
+
+Or, you can view the html files by double clicking them from the project folder to open them in Google Chrome.
+
 
 &nbsp;
 
